@@ -1,18 +1,4 @@
-@font-face {
-  font-family: "iran_sans_bold";
-  src: url("../Fonts/iran_sans_bold.woff") format("woff");
-}
 
-@font-face {
-  font-family: "iran_sans_light";
-  src: url("../Fonts/iran_sans_light.woff") format("woff");
-}
-
-@font-face {
-  font-family: "iran_sans_medi";
-  src: url("../Fonts/iran_sans_medi.woff") format("woff");
-  font-family: iran_sans_light;
-}
 * {
   margin: 0;
   padding: 0;
@@ -96,7 +82,7 @@ nav {
   color: #fff;
 }
 .hero span {
-  color: orangered;
+  color: green;;
 }
 .download {
   width: 200px;
@@ -137,7 +123,6 @@ nav {
 .writer {
   margin: 100px;
   margin-top: 100px;
-  background-color: #ebe6e6;
 }
 .writer .box-container {
   display: grid;
@@ -179,35 +164,18 @@ nav {
   font-size: 1.2rem;
   
 }
-.f{background-color: rgb(37, 41, 40);}
-.t{background-color: #494441;
-background-position: center;}
-.q{height: 300px;width: 300px;
-margin: auto; 
-right: 200;
-left: 200;}
-.n{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  text-transform: uppercase;
-  font-weight: 600;
-  letter-spacing: 2px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  box-sizing: border-box;
-  padding: 10px 50px;
-  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.05);
-  z-index: 1;
-  background-color: #6d6763;
+.f{background-color: aquamarine;}
+.foter{position: fixed;
+margin:10px ;
+background-color: aqua;}
 
-}
-.z{position: fixed;
-bottom: 0;
-width: 100%;
-height: 60px;
-background-color: #494441;
-text-align: center;}
-.r{background-color: #494441;}
+.bod{background-color: aquamarine;}
+
+.fot{position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+background-color: aqua;
+  text-align: center;}
+  .r{background-color: #494441;}
+  
