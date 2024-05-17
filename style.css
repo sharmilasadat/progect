@@ -28,18 +28,23 @@ text-align: center;}
   margin: 40px;
   text-align: center;
   width:500px;
-  padding: 20px  80px  ;
+  padding:  ;
 
  }
+ h2{padding-bottom: 0px;
+background-color:silver;}
+ 
 
 /*-------------------- about-------------------- */  
-    .inner{background-color: aquamarine;
+    .inner{
     padding: 20px  20px   100px  10px;
     text-align: center;
 margin-top: 30px;
-width: auto;}
+width: auto;
+border: 3px solid silver;}
 
   p{text-align: center;
+    
 }
   span{align-items: center; 
   display: block;}
@@ -56,8 +61,7 @@ background-size:cover ;
  }
  h1{text-align: center;
 margin: 20px;}
-.carousel-item {text-align: center;
-background-color: aquamarine;}
+.carousel-item {text-align: center;}
 
 
 /*-------------- serwess---------------*/
